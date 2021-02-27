@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Morganite-SemiBoldItalic';
+  src: url('Morganite-SemiBoldItalic.eot');
+  src: url('Morganite-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('Morganite-SemiBoldItalic.svg#Morganite-SemiBoldItalic') format('svg'),
+       url('Morganite-SemiBoldItalic.ttf') format('truetype'),
+       url('Morganite-SemiBoldItalic.woff') format('woff'),
+       url('Morganite-SemiBoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

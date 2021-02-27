@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'RFlexRegular';
+  src: url('RFlexRegular.eot');
+  src: url('RFlexRegular.eot?#iefix') format('embedded-opentype'),
+       url('RFlexRegular.svg#RFlexRegular') format('svg'),
+       url('RFlexRegular.ttf') format('truetype'),
+       url('RFlexRegular.woff') format('woff'),
+       url('RFlexRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

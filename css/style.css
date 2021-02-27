@@ -1,0 +1,16 @@
+body {
+    max-width: 1920;
+    width: 100%;
+    margin: 0 auto;
+}
+/* header */
+.header {
+    max-width:1920 ; 
+    width: 100%;
+    background-image: url(../img/img_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 746px;
+    margin: 0 auto;
+}

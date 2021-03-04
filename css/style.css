@@ -44,3 +44,27 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* section2 */
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E1D8FF;
+    display: flex;
+}
+.box-wraper {
+    max-width: 1797px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 198px;
+}
+.box {
+    max-width: 943px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,14 +1,14 @@
 body {
-    max-width: 1920;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     background-color: #E1D8ff;
 }
 /* header */
 .header {
-    max-width:1920 ; 
+    max-width:1920px; 
     width: 100%;
-    background-image: url(../img/img_header.jpg);
+    background-image: url(../img/bimage.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,6 +17,7 @@ body {
     display: flex;
 }
 .logo{
+    font-family: Morganite-SemiBold;
     font-size: 46px;
     font-style: bold;
     color: #272E5D;
@@ -34,7 +35,14 @@ body {
 .nav-ul {
     display: flex;
 }
+.nav-a {
+    font-family: Morganite-SemiBoldItalic;
+    font-size: 24px;
+    margin-left: 30px;
+}
 .main-title {
+    font-family:Morganite-SemiBold;
+    font-size: 104px;
     max-width: 1261px;
     width: 100%;
     height: 364px;
@@ -53,7 +61,7 @@ body {
     display: flex;
 }
 .box-wraper {
-    max-width: 1797px;
+    max-width: 1800px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -62,9 +70,23 @@ body {
     margin-bottom: 198px;
 }
 .box {
-    max-width: 943px;
+    max-width: 940px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:first baseline;
+    position: relative;
+}
+.CD {
+    position: absolute;
+    transition: all 0.5s ease 0.5s;
+	animation:cdanimation 5s infinite;
+}
+.box :hover {
+    background-color: #E1D8ff;
+}
+.image :hover {
+    background-color: #E1D8ff;
+    opacity: 0.5;
+    transition: ;
 }

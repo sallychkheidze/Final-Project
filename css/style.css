@@ -12,56 +12,79 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 746px;
+    height: 800px;
     margin: 0 auto;
     display: flex;
 }
-.logo{
-    font-family: Morganite-SemiBold;
-    font-size: 46px;
-    font-style: bold;
-    color: #272E5D;
-    font-weight: 300;
-    font-display: swap;
+.header-wraper {
+    max-width: 1780px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.navigation {
+    height: 110px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.logo{
+    font-family: Morganite-SemiBold;
+    font-size: 46px;
+    color: #272E5D;
+    font-weight: 300;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soundwalker {
+    margin-left: 100px;
+    margin-top: 30px;
+}
 .nav-ul {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .nav-a {
     font-family: Morganite-SemiBoldItalic;
     font-size: 24px;
     margin-left: 30px;
+    text-transform: uppercase;
+}
+.header-wraper i{
+    display: none;
+    color:white;
 }
 .main-title {
-    font-family:Morganite-SemiBold;
-    font-size: 104px;
-    max-width: 1261px;
-    width: 100%;
+    width:100px;
     height: 364px;
     margin: 0 auto;
-    transform:(-50%,-50%);
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-/* section2 */
+.main-title-text {
+    font-family:Morganite-SemiBold;
+    font-size: 50px;
+    position: absolute;
+}
+/* section1 */
 .container {
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     background-color: #E1D8FF;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .box-wraper {
-    max-width: 1800px;
+    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -70,23 +93,103 @@ body {
     margin-bottom: 198px;
 }
 .box {
-    max-width: 940px;
+    max-width: 500px;
     width: 100%;
+    height: 678px;
     display: flex;
     align-items: center;
-    justify-content:first baseline;
+    justify-content:baseline;
     position: relative;
 }
-.CD {
+.box-title {
+    font-family:Morganite-SemiBold;
+    font-size: 24px;
+    font-weight: 30;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 100%;
+}
+.box-title a :hover {
+    background-color: #EFEBFF;
+    transition: 2s 5s ease-in-out linear;
+}
+.box-image {
+    max-width: 400px;
+    width: 100%;
+    padding-left: 150px;
+}
+.box-text {
+    font-family:Morganite-SemiBold;
+    font-size: 12px;
+    position: absolute;
+    display: flex;
+    padding-top: 110%;
+}
+.sec3-title {
+    font-family:Morganite-SemiBold;
+    font-size: 50px;
+    max-width: 1600px;
+    width:100%x;
+    height: 364px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .CD {
     position: absolute;
     transition: all 0.5s ease 0.5s;
-	animation:cdanimation 5s infinite;
+	animation:cdanimation 5s infinite; */
 }
-.box :hover {
+/* .box :hover {
     background-color: #E1D8ff;
 }
 .image :hover {
     background-color: #E1D8ff;
     opacity: 0.5;
     transition: ;
+} */
+/* section2 */
+.sec2-title {
+    font-family:Morganite-SemiBold;
+    font-size: 50px;
+    max-width: 1000px;
+    width:100%x;
+    height: 364px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.podcast-wraper {
+    max-width: 1229px;
+    width: 100%;
+    height: 1130px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.box3 {
+    max-width: 1147px;
+    width: 100%;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box3-image {
+    max-width: 263px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.box3-title {
+
 }

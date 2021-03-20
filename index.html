@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <script>
+        function myFunction() {
+          document.getElementById("button").innerHTML = "Show Less";
+        }
+        </script>
 </head>
 <body>
     <!-- header -->
@@ -111,11 +116,9 @@
                 <img class="box3-image" src="img/image4.jpg" alt="cover">
             </div>
             <div>
-                <button class="button">View All</button>
+                <button class="button" id="button" type="button" onclick="myFunction()"> View All </button>
             </div>
-        </div>
-       
-        
+        </div>   
     </div>
 </section>
 <!-- footer -->

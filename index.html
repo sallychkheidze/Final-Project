@@ -7,6 +7,12 @@
     <meta name="description" content="#">
     <meta name="keywords" content="#">
     <meta name="author" content="#">
+    <meta name="google" content="notranslate" />
+    <meta property="og:url"                content="https://kristina-makalatia.github.io/lesson8-d-flex/" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Our fb title" />
+    <meta property="og:description"        content="Our fb description" />
+    <meta property="og:image"              content="https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg" />
     <title>Final Project</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,6 +20,7 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
+    <!-- header -->
     <header class="header">
         <div class="header-wraper">
             <div class="soundwalker">
@@ -35,13 +42,15 @@
 <section>
     <div class="container">
         <div class="box-wraper">
-            <div class="box">
+            <div class="box1">
                 <h3><a href="#"></a>MASSIVE ATTACK</h3>
                 <h4><a href="#"></a>REVIVAL</h4>
-                <img class="image" src="img/image1.jpg" alt="album">
-                <!-- <img class="CD" src="img/img_CD.png" alt="CD"> -->
+                <div class="image-animation">
+                    <img class="image" src="img/image1.jpg" alt="album">
+                    <!-- <img class="CD" src="img/img_CD.png" alt="CD"> -->
+                </div>
             </div>
-            <div class="box">
+            <div class="box1">
                 <h3><a href="#"></a>NEXT EQUINOX</h3>
                 <h4><a href="#"></a>SURFER</h4>
                 <div class="image-animation">
@@ -77,43 +86,67 @@
 </section>
 <!-- section3 -->
 <section>
-    <div class="container2">
+    <div class="container1">
         <h2 class="sec2-title">PODCAST LIBRARY</h2>
         <div class="podcast-wraper">
             <div class="box3">
-                <h3 class="box3-title">Brave New Rave</h3>
-                <p class="box3-text">EXPLORING BERLIN’S INFLUENCE ON TECHNO, DARK DISCO AND LEFT FIELD CULTURE</p>
+                <div class="text-wraper">
+                    <h3 class="box3-title">Brave New Rave</h3>
+                    <p class="box3-text">EXPLORING BERLIN’S INFLUENCE ON TECHNO, DARK DISCO AND LEFT FIELD CULTURE</p>
+                </div>
                 <img class="box3-image" src="img/image2.jpg" alt="cover">
             </div>
             <div class="box3">
-                <h3 class="box3-title">Below the Ten: Life in South LA</h3>
-                <p class="box3-text">ongoing series telling intimate stories about the people</p>
+                <div class="text-wraper">
+                    <h3 class="box3-title">Below the Ten: Life in South LA</h3>
+                    <p class="box3-text">ongoing series telling intimate stories about the people</p>
+                </div>
                 <img class="box3-image" src="img/image3.jpg" alt="cover">
             </div>
             <div class="box3">
-                <h3 class="box3-title">Anthony Valadez</h3>
-                <p class="box3-text">Broken beats and soulful key chords, from yesterday's dusty drums to tomorrow's sounds</p>
+                <div class="text-wraper">
+                    <h3 class="box3-title">Anthony Valadez</h3>
+                    <p class="box3-text">Broken beats and soulful key chords, from yesterday's dusty drums to tomorrow's sounds</p>
+                </div>
                 <img class="box3-image" src="img/image4.jpg" alt="cover">
             </div>
+            <div>
+                <button class="button">View All</button>
+            </div>
         </div>
+       
+        
     </div>
 </section>
+<!-- footer -->
 <footer>
     <div class="footer">
+        <div class="footer-form">
+            <h2 class="form-title">Music Insider Newsletter</h2>
+            <p class="form-text">Feed your curiosity all week with the best in news, music, culture, and events</p>
+            <form class="form">
+                <div class="form-wraper">
+                    <label class="form-label" for="email">Email:</label> 
+                    <input class="input-wraper" type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <input class="form-submit" type="submit" value="SUBSCRIBE">
+                </div>
+              </form>
+
+        </div>
         <div class="footer-title">
-            <h3>SOUNDwalker</h3>
-            <h6>Electronic Music Space</h6>
+            <h3 class="footer-head">SOUNDWALKER</h3>
+            <h6 class="footer-text">Electronic Music Space</h6>
         </div> 
         <div class="footer-navigation">
             <ul>
-                <li><a href="#"></a>CONTACT </li>
-                <li><a href="#"></a>CAREER</li>
-                <li><a href="#"></a>HELP/FAQ</li>
-                <li><a href="#"></a>FRINGE BENEFITS</li>
-                <li><a href="#"></a>EVENTS</li>
-                <li><a href="#"></a>BECOME A SPONSOR</li>
-                <li><a href="#"></a>TERMS OF SERVICE</li>
-                <li><a href="#"></a>PRIVACY POLICY</li>
+                <li><a href="#" class="nav-f"></a>CONTACT </li>
+                <li><a href="#" class="nav-f"></a>CAREER</li>
+                <li><a href="#" class="nav-f"></a>HELP/FAQ</li>
+                <li><a href="#" class="nav-f"></a>FRINGE BENEFITS</li>
+                <li><a href="#" class="nav-f"></a>EVENTS</li>
+                <li><a href="#" class="nav-f"></a>BECOME A SPONSOR</li>
+                <li><a href="#" class="nav-f"></a>TERMS OF SERVICE</li>
+                <li><a href="#" class="nav-f"></a>PRIVACY POLICY</li>
             </ul>
         </div> 
         <div class="footer-icons">
@@ -123,7 +156,7 @@
         </div>
         <div class="footer-bg">
             <i class="far fa-copyright"></i>
-            <p>2020 SOUNDWALKER All Rights Reserved. Made in EA93</p>
+            <p class="footer-credits">2020 SOUNDWALKER All Rights Reserved. Made in EA93</p>
         </div>
     </div>
 </footer>

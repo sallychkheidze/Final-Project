@@ -93,17 +93,17 @@
 }
 @media (max-width 479px) {
     .header {
-        max-width: 900px;
+        max-width: 400px;
         width: 100%;
         margin: 0 auto;
     }
     .header-wraper {
-        max-width: 800px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
     .box-wraper {
-        max-width: 700px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
@@ -115,12 +115,12 @@
         width:200px;
     }
     .podcast-wraper {
-        max-width: 800px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
     .footer {
-        max-width: 1000px;
+        max-width: 400px;
         width: 100%;
         margin: 0 auto;
     }
@@ -131,17 +131,17 @@
 }
 @media (max-width 420px) {
     .header {
-        max-width: 900px;
+        max-width: 320px;
         width: 100%;
         margin: 0 auto;
     }
     .header-wraper {
-        max-width: 800px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
     .box-wraper {
-        max-width: 700px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
@@ -153,12 +153,12 @@
         width:200px;
     }
     .podcast-wraper {
-        max-width: 800px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
     .footer {
-        max-width: 1000px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }

@@ -53,6 +53,12 @@
         width: 100%;
         margin: 0 auto;
     }
+    .header i{
+        display: block;
+    }
+    .nav-ul {
+        display: none;
+    }
     .box-wraper {
         display: flex;
         flex-direction: column;
@@ -102,6 +108,12 @@
         width: 100%;
         margin: 0 auto;
     }
+    .header i{
+        display: block;
+    }
+    .nav-ul {
+        display: none;
+    }
     .box-wraper {
         max-width: 300px;
         width: 100%;
@@ -124,10 +136,6 @@
         width: 100%;
         margin: 0 auto;
     }
-    .header i{
-        height: 40px;
-        display: block;
-    }
 }
 @media (max-width 420px) {
     .header {
@@ -139,6 +147,12 @@
         max-width: 300px;
         width: 100%;
         margin: 0 auto;
+    }
+    .header i{
+        display: block;
+    }
+    .nav-ul {
+        display: none;
     }
     .box-wraper {
         max-width: 300px;
@@ -161,9 +175,5 @@
         max-width: 300px;
         width: 100%;
         margin: 0 auto;
-    }
-    .header i{
-        height: 20px;
-        display: block;
     }
 }
